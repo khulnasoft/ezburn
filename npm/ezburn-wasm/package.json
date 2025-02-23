@@ -1,0 +1,19 @@
+{
+  "name": "ezburn-wasm",
+  "version": "0.1.0",
+  "description": "The cross-platform WebAssembly binary for ezburn, a JavaScript bundler.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khulnasoft/ezburn.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "main": "lib/main.js",
+  "browser": "lib/browser.js",
+  "types": "lib/main.d.ts",
+  "directories": {
+    "bin": "bin"
+  }
+}

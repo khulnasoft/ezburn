@@ -1,0 +1,20 @@
+{
+  "name": "@ezburn/linux-arm",
+  "version": "0.1.0",
+  "description": "The Linux ARM binary for ezburn, a JavaScript bundler.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khulnasoft/ezburn.git"
+  },
+  "license": "MIT",
+  "preferUnplugged": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "arm"
+  ]
+}

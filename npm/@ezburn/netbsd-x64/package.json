@@ -1,0 +1,19 @@
+{
+  "name": "@ezburn/netbsd-x64",
+  "version": "0.1.0",
+  "description": "The NetBSD AMD64 binary for ezburn, a JavaScript bundler.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khulnasoft/ezburn.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "os": [
+    "netbsd"
+  ],
+  "cpu": [
+    "x64"
+  ]
+}

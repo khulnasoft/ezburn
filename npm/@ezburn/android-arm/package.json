@@ -1,0 +1,20 @@
+{
+  "name": "@ezburn/android-arm",
+  "version": "0.1.0",
+  "description": "A WebAssembly shim for ezburn on Android ARM.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khulnasoft/ezburn.git"
+  },
+  "license": "MIT",
+  "preferUnplugged": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "os": [
+    "android"
+  ],
+  "cpu": [
+    "arm"
+  ]
+}

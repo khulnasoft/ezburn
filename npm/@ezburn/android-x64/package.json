@@ -1,0 +1,17 @@
+{
+  "name": "@ezburn/android-x64",
+  "version": "0.1.0",
+  "description": "A WebAssembly shim for ezburn on Android x64.",
+  "repository": "https://github.com/khulnasoft/ezburn",
+  "license": "MIT",
+  "preferUnplugged": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "os": [
+    "android"
+  ],
+  "cpu": [
+    "x64"
+  ]
+}

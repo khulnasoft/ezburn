@@ -1,0 +1,10 @@
+{
+  "name": "@ezburn/wasi-preview1",
+  "version": "0.1.0",
+  "description": "The WASI (WebAssembly System Interface) preview 1 binary for ezburn, a JavaScript bundler.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khulnasoft/ezburn.git"
+  },
+  "license": "MIT"
+}

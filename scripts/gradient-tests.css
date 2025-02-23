@@ -1,0 +1,95 @@
+.linear.red_to_green-ezburn {
+  background: linear-gradient(to right, color(display-p3 1 0 0), color(display-p3 0 0.6 0));
+}
+
+.radial.red_to_green-ezburn {
+  background: radial-gradient(color(display-p3 1 0 0), color(display-p3 0 0.6 0));
+}
+
+.conic.red_to_green-ezburn {
+  background: conic-gradient(color(display-p3 1 0 0), color(display-p3 0 0.6 0));
+}
+
+.linear.rainbow_shorter-ezburn {
+  background: linear-gradient(to right in hwb shorter hue, hsl(180deg 100% 75%) 10%, hsl(240deg 100% 75%) 90%);
+}
+
+.radial.rainbow_shorter-ezburn {
+  background: radial-gradient(in hwb shorter hue, hsl(180deg 100% 75%) 10%, hsl(240deg 100% 75%) 90%);
+}
+
+.conic.rainbow_shorter-ezburn {
+  background: conic-gradient(in hwb shorter hue, hsl(180deg 100% 75%) 10%, hsl(240deg 100% 75%) 90%);
+}
+
+.linear.rainbow_longer-ezburn {
+  background: linear-gradient(to right in hsl longer hue, hsl(180deg 100% 75%) 10%, hsl(240deg 100% 75%) 90%);
+}
+
+.radial.rainbow_longer-ezburn {
+  background: radial-gradient(in hsl longer hue, hsl(180deg 100% 75%) 10%, hsl(240deg 100% 75%) 90%);
+}
+
+.conic.rainbow_longer-ezburn {
+  background: conic-gradient(in hsl longer hue, hsl(180deg 100% 75%) 10%, hsl(240deg 100% 75%) 90%);
+}
+
+.linear.rainbow_increasing-ezburn {
+  background: linear-gradient(to right in lch increasing hue, hsl(240deg 100% 75%) 10%, hsl(180deg 100% 75%) 90%);
+}
+
+.radial.rainbow_increasing-ezburn {
+  background: radial-gradient(in lch increasing hue, hsl(240deg 100% 75%) 10%, hsl(180deg 100% 75%) 90%);
+}
+
+.conic.rainbow_increasing-ezburn {
+  background: conic-gradient(in lch increasing hue, hsl(240deg 100% 75%) 10%, hsl(180deg 100% 75%) 90%);
+}
+
+.linear.rainbow_decreasing-ezburn {
+  background: linear-gradient(to right in oklch decreasing hue, hsl(180deg 100% 75%) 10%, hsl(240deg 100% 75%) 90%);
+}
+
+.radial.rainbow_decreasing-ezburn {
+  background: radial-gradient(in oklch decreasing hue, hsl(180deg 100% 75%) 10%, hsl(240deg 100% 75%) 90%);
+}
+
+.conic.rainbow_decreasing-ezburn {
+  background: conic-gradient(in oklch decreasing hue, hsl(180deg 100% 75%) 10%, hsl(240deg 100% 75%) 90%);
+}
+
+.linear.midpoint_hint-ezburn {
+  background: linear-gradient(to right, #f00, #ff0, 75%, #0ff, #00f);
+}
+
+.radial.midpoint_hint-ezburn {
+  background: radial-gradient(#f00, #ff0, 75%, #0ff, #00f);
+}
+
+.conic.midpoint_hint-ezburn {
+  background: conic-gradient(#f00, #ff0, 75%, #0ff, #00f);
+}
+
+.linear.premultiplied_alpha-ezburn {
+  background: linear-gradient(to right, #f00f, 10%, #00f1, 90%, #0f0f);
+}
+
+.radial.premultiplied_alpha-ezburn {
+  background: radial-gradient(#f00f, 10%, #00f1, 90%, #0f0f);
+}
+
+.conic.premultiplied_alpha-ezburn {
+  background: conic-gradient(#f00f, 10%, #00f1, 90%, #0f0f);
+}
+
+.linear.mixed_units-ezburn {
+  background: linear-gradient(to right, color(display-p3 0.4 0 1) 30px, color(display-p3 0.96 0.75 0.4) 60%);
+}
+
+.radial.mixed_units-ezburn {
+  background: radial-gradient(color(display-p3 0.4 0 1) 30px, color(display-p3 1 0.75 0.4) 60%);
+}
+
+.conic.mixed_units-ezburn {
+  background: conic-gradient(color(display-p3 0.4 0 1) 30deg, color(display-p3 1 0.75 0.4) 60%);
+}
