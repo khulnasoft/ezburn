@@ -1,9 +1,4 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./images/wordmark-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./images/wordmark-light.svg">
-    <img alt="ezburn: An extremely fast JavaScript bundler" src="./images/wordmark-light.svg">
-  </picture>
   <br>
   <a href="https://ezburn.github.io/">Website</a> |
   <a href="https://ezburn.github.io/getting-started/">Getting started</a> |
