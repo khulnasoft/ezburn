@@ -2,7 +2,7 @@ module github.com/khulnasoft/ezburn
 
 // Support for Go 1.13 is deliberate so people can build ezburn
 // themselves for old OS versions. Please do not change this.
-go 1.23.5
+go 1.13
 
 // This dependency cannot be upgraded or ezburn would no longer
 // compile with Go 1.13. Please do not change this. For more info,

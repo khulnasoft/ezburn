@@ -574,7 +574,7 @@ publish-sunos-x64: platform-sunos-x64
 	test -n "$(OTP)" && cd npm/@ezburn/sunos-x64 && npm publish --otp="$(OTP)"
 
 publish-wasm: platform-wasm
-	test -n "$(OTP)" && cd npm/ezburn-wasm && npm publish --otp="$(OTP)"
+	test -n "$(OTP)" && cd npm/ezburn-wasm && npm publish --otp="$(OTP) --access=public"
 
 publish-neutral: platform-neutral
 	test -n "$(OTP)" && cd npm/ezburn && npm publish --otp="$(OTP)"
